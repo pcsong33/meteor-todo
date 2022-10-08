@@ -14,7 +14,7 @@
     newTask = '';
   }
 </script>
-
+<!-- create task form to add new tasks -->
 <form class="task-form" on:submit|preventDefault={handleSubmit}>
   <input
           type="text"
